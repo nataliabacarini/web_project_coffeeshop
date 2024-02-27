@@ -8,6 +8,34 @@
   line-height: 20px;
 }
 
+.header {
+  background-color: #fff;
+  background-image: url(../images/background_header.svg);
+  background-repeat: none;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav__logo {
+  height: 39px;
+  width: 105px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.nav__links {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  margin-top: 30px;
+  margin-right: 80px;
+}
+
 .content {
 }
 
