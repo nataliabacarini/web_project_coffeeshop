@@ -120,7 +120,7 @@ ul {
   color: #fff;
 }
 
-.recipes__titles {
+.recipes__title {
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -130,7 +130,7 @@ ul {
   margin-bottom: 0;
 }
 
-.recipes__subtitles {
+.recipes__subtitle {
   font-family: "Noto Serif", "Times New Roman", Times, serif;
   font-size: 20px;
   font-weight: normal;
