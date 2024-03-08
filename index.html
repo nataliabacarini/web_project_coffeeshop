@@ -17,6 +17,7 @@
     />
     <title>Café</title>
   </head>
+
   <body>
     <div class="page">
       <header class="header">
@@ -110,7 +111,62 @@
           </div>
         </section>
 
-        <section class="reservation" id="reservation-id"></section>
+        <section class="reservation" id="reservation-id">
+          <h2 class="reservation__title">Reservar uma mesa</h2>
+          <div class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="name"
+                >Nome *
+                <input
+                  class="form__input"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Nome"
+                />
+              </label>
+              <label class="form__label" for="number"
+                >Número de convidados *
+                <input
+                  class="form__input"
+                  type="number"
+                  min="1"
+                  max="8"
+                  id="number"
+                  name="number"
+                  placeholder="1-8"
+                />
+              </label>
+              <label class="form__label" for="datetime-local"
+                >Data e hora *
+                <input
+                  class="form__input"
+                  type="datetime-local"
+                  id="datetime-local"
+                  name="datetime-local"
+                />
+              </label>
+              <label class="form__label" for="e-mail"
+                >Seu e-mail *
+                <input
+                  class="form__input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="email@email.com"
+                />
+              </label>
+              <button class="form__button" type="submit">
+                Reservar uma mesa
+              </button>
+              <input class="form__checkbox" type="radio">
+               Eu concordo com os termos de uso
+                </input>
+              </button>
+            </fieldset>
+          </div>
+        </section>
+
         <section class="menu" id="menu-id"></section>
         <section class="about" id="about-id"></section>
       </main>
