@@ -125,6 +125,7 @@
                   placeholder="Nome"
                 />
               </label>
+
               <label class="form__label" for="number"
                 >Número de convidados *
                 <input
@@ -137,6 +138,7 @@
                   placeholder="1-8"
                 />
               </label>
+
               <label class="form__label" for="datetime-local"
                 >Data e hora *
                 <input
@@ -146,6 +148,7 @@
                   name="datetime-local"
                 />
               </label>
+
               <label class="form__label" for="e-mail"
                 >Seu e-mail *
                 <input
@@ -156,13 +159,21 @@
                   placeholder="email@email.com"
                 />
               </label>
+
               <button class="form__button" type="submit">
                 Reservar uma mesa
               </button>
-              <input class="form__checkbox" type="radio">
-               Eu concordo com os termos de uso
-                </input>
-              </button>
+
+              <label class="form__label" for="terms-and-use">
+                <input
+                  class="form__checkbox"
+                  type="radio"
+                  id="terms-and-use"
+                  name="terms-and-use"
+                  required
+                />
+                Eu concordo com os termos de uso
+              </label>
             </fieldset>
           </div>
         </section>
