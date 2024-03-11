@@ -261,9 +261,10 @@ ul {
 .form__label_checkbox {
   display: flex;
   justify-content: center;
+  margin-bottom: 120px;
 }
 
---------------------------------- .menu {
+.menu {
 }
 
 .about {
