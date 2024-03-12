@@ -113,71 +113,73 @@
 
         <section class="reservation" id="reservation-id">
           <h2 class="reservation__title">Reservar uma mesa</h2>
-          <div class="form reservation__form">
-            <fieldset class="form__fieldset">
-              <label class="form__label" for="name"
-                >Nome *
-                <input
-                  class="form__input"
-                  type="text"
-                  id="name"
-                  name="name"
-                  placeholder="Nome"
-                />
-              </label>
+          <div class="reservation__form">
+            <div class="form">
+              <fieldset class="form__fieldset">
+                <label class="form__label" for="name"
+                  >Nome *
+                  <input
+                    class="form__input"
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Nome"
+                  />
+                </label>
 
-              <label class="form__label" for="number"
-                >Número de convidados *
-                <input
-                  class="form__input"
-                  type="number"
-                  min="1"
-                  max="8"
-                  id="number"
-                  name="number"
-                  placeholder="1-8"
-                />
-              </label>
+                <label class="form__label" for="number"
+                  >Número de convidados *
+                  <input
+                    class="form__input"
+                    type="number"
+                    min="1"
+                    max="8"
+                    id="number"
+                    name="number"
+                    placeholder="1-8"
+                  />
+                </label>
 
-              <label class="form__label" for="datetime-local"
-                >Data e hora *
-                <input
-                  class="form__input"
-                  type="datetime-local"
-                  id="datetime-local"
-                  name="datetime-local"
-                />
-              </label>
+                <label class="form__label" for="datetime-local"
+                  >Data e hora *
+                  <input
+                    class="form__input"
+                    type="datetime-local"
+                    id="datetime-local"
+                    name="datetime-local"
+                  />
+                </label>
 
-              <label class="form__label" for="email"
-                >Seu e-mail *
-                <input
-                  class="form__input"
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="email@email.com"
-                />
-              </label>
+                <label class="form__label" for="email"
+                  >Seu e-mail *
+                  <input
+                    class="form__input"
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="email@email.com"
+                  />
+                </label>
 
-              <button class="form__button" type="submit">
-                Reservar uma mesa
-              </button>
+                <button class="form__button" type="submit">
+                  Reservar uma mesa
+                </button>
 
-              <label
-                class="form__label form__label_checkbox"
-                for="terms-and-use"
-              >
-                <input
-                  class="form__checkbox"
-                  type="checkbox"
-                  id="terms-and-use"
-                  name="terms-and-use"
-                  required
-                />
-                Eu concordo com os termos de uso
-              </label>
-            </fieldset>
+                <label
+                  class="form__label form__label_checkbox"
+                  for="terms-and-use"
+                >
+                  <input
+                    class="form__checkbox"
+                    type="checkbox"
+                    id="terms-and-use"
+                    name="terms-and-use"
+                    required
+                  />
+                  Eu concordo com os termos de uso
+                </label>
+              </fieldset>
+            </div>
           </div>
         </section>
 
