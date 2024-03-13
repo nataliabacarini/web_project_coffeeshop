@@ -189,16 +189,13 @@ ul {
   justify-content: center;
 }
 
-.form {
+.reservation__form {
+  margin-top: 80px;
+  margin-bottom: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.reservation__form {
-  margin-top: 80px;
-  margin-bottom: 120px;
 }
 
 .form__fieldset {
