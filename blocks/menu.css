@@ -1,0 +1,10 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 100vh;
+}
