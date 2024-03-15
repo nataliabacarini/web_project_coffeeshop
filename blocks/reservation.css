@@ -4,8 +4,8 @@
   background-color: #d9e7ff;
   background-image: url(../images/background_reservation.svg);
   background-position: center;
-  height: 105vh;
-  box-sizing: border-box;
+  height: 100vh;
+  height: 100%;
 }
 
 .reservation__title {
@@ -20,7 +20,6 @@
 
 .reservation__form {
   margin-top: 80px;
-  margin-bottom: 120px;
   display: flex;
   flex-direction: column;
   justify-content: center;
