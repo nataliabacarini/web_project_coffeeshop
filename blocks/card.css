@@ -2,13 +2,19 @@
 }
 
 .card__title {
+  margin: 0 0 32px;
 }
 
 .card__content {
+  padding: 0;
+  width: 540px;
+  margin: 0;
 }
 
 .card__list-item {
+  display: flex;
 }
 
 .card__list-divider {
+  display: flex-end;
 }
