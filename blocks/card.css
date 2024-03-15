@@ -1,20 +1,31 @@
 .card {
+  width: 540px;
 }
 
 .card__title {
   margin: 0 0 32px;
+  text-align: start;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .card__content {
   padding: 0;
-  width: 540px;
   margin: 0;
+  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .card__list-item {
   display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
 }
 
 .card__list-divider {
-  display: flex-end;
+  border-bottom: 1px solid #838383;
+  flex-grow: 1;
+  margin: 0 5px;
 }
