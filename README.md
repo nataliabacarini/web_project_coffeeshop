@@ -1,16 +1,16 @@
 # Triple Espresso
 
-A _Triple Espresso_ é um café localizado na biblioteca Triple Peaks. A página web foi desenvolvida para otimizar o atendimento e agendamento de reservas para melhor comodidade dos clientes. Além do cardápio também possui algumas receitas para que os clientes possam conhecer algumas formas de como o café _Triple Espresso_ faz o seu café.
+O _Triple Espresso_ é um café localizado na biblioteca Triple Peaks. O website foi desenvolvido para otimizar o atendimento e o agendamento de reservas, visando proporcionar maior comodidade aos clientes. Além do cardápio, também apresenta algumas receitas para que os clientes possam descobrir diferentes formas de como a _Triple_ Espresso prepara o seu café .
 
 ## Funcionalidades
 
-- Horários de atendimento;
-- Receitas de como o seu café pode ser feito;
-- Espaço para fazer reservas de mesa;
+- Horários de funcionamento;
+- Receitas para preparar o café;
+- Reservas de mesa;
 - Cardápio;
-- Contatos;
+- Informações de contato.
 
-## Técnologias Utilizadas
+## Tecnologias Utilizadas
 
 - HTML
 - CSS
